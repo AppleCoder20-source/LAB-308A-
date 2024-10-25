@@ -1,4 +1,5 @@
 //Part 1 
+//Recursion goes up to 13950 for me for stack overflow
 let counter = 0;
 function recursive() {
     counter +=1
@@ -86,4 +87,4 @@ function listPrimes(n) {
     Defer();
 }
 
-listPrimes(10000);
+listPrimes(10000); 
