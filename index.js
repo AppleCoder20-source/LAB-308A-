@@ -1,5 +1,5 @@
+//Part 1 
 let counter = 0;
-
 function recursive() {
     counter +=1
     recursive()
@@ -47,7 +47,7 @@ Tramp([
     [1, [], [2, [3, []]], 4],
     [1, 'a', [true, [null, [undefined]]], 2],
 ]);
-// Cache the HTML element
+// Part 3 
 const element = document.getElementById("output");
 
 function isPrime(n){
