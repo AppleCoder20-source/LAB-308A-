@@ -77,7 +77,7 @@ function listPrimes(n) {
                 element.innerText += i + ', ';
             }
             i++;
-            setTimeout(processNext, 0);
+            setTimeout(Defer, 0);
         } else {
             alert('Finished Calculationss');
         }
