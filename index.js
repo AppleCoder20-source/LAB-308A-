@@ -67,3 +67,23 @@ function isPrime(n){
     }
     return true;
 }
+
+function listPrimes(n) {
+    let i = 2; 
+
+    function Defer() {
+        if (i <= n) {
+            if (isPrime(i)) {
+                element.innerText += i + ', ';
+            }
+            i++;
+            setTimeout(processNext, 0);
+        } else {
+            alert('Finished Calculationss');
+        }
+    }
+
+    Defer();
+}
+
+listPrimes(10000);
